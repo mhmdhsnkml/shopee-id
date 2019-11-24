@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
@@ -13,7 +13,7 @@ const request = axios.create({
 })
 
 const App = () => {
-  const [reference, setReference] = useState("USD")
+  const [reference] = useState("USD")
   const [value, setValue] = useState(10)
   const [list, setList] = useState([])
   const [isAdd, setIsAdd] = useState(false)

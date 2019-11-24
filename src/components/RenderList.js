@@ -1,7 +1,6 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import NumberFormat from 'react-number-format';
-import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 
 import { description } from '../vals'
